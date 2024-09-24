@@ -10,12 +10,12 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "43.075500"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-89.418633"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Oct 9-10, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:00 pm CEST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "9:00 am - 4:00 pm CT"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-10-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-10-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Sarah Whitcomb", "David Bradshaw"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBD", "TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["first@example.org","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["sarah.whitcomb@usda.gov", "david.bradshaw@usda.gov"]
+email: ["sarah.whitcomb@usda.gov", "david.bradshaw@usda.gov"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["first@example.org","second@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -244,7 +244,7 @@ special instructions.
   We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
   To request an accommodation for this workshop, please fill out the 
   <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
-  If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
+  If you have questions or need assistance with the accommodation form please <a href="mailto:sarah.whitcomb@usda.gov">email us</a>.
 </p>
 <p>
   <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
